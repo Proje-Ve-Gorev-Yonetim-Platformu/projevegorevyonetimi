@@ -12,7 +12,7 @@ public class Task {
     private Long id;
 
     @Column(nullable = false)
-    private String Title;
+    private String title;
 
     @Column(columnDefinition = "TEXT")
     private String description;
