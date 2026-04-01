@@ -17,7 +17,7 @@ public class Task {
     @Column(columnDefinition = "TEXT")
     private String description;
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private String status;
 
     private LocalDateTime createdAt;
